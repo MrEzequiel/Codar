@@ -35,6 +35,12 @@ ul {
   background-color: var(--primary-color);
   padding: 1rem 5rem;
   border-radius: 1rem;
+
+  transition: background 300ms, color 300ms;
+}
+.button:hover {
+  background: black;
+  color: var(--primary-color);
 }
 
 /* HEADER =========================*/
@@ -150,7 +156,15 @@ section {
   border: none;
   outline: none;
   height: 7.5rem;
-  padding: 2rem;
+  padding: 0 2rem;
+}
+
+#contact button {
+  transition: background 300ms, color 300ms;
+}
+#contact button:hover {
+  background: black;
+  color: var(--primary-color);
 }
 
 #contact input {
